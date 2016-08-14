@@ -18,7 +18,7 @@ body {
     filter: brightness(1) contrast(1.4);
     overflow: hidden;
     position: relative;
-    transform: skewY(-10deg);
+    //transform: skewY(-10deg);
     margin-top: -40px; }body {
   margin: 0;
   padding: 0;
@@ -39,7 +39,7 @@ body {
     filter: brightness(1) contrast(1.4);
     overflow: hidden;
     position: relative;
-    transform: skewY(-10deg);
+    //transform: skewY(-10deg);
     margin-top: -40px; }
 
     .page-header .swiper-container .swiper-wrapper {
@@ -52,7 +52,7 @@ body {
       .page-header .swiper-container .swiper-wrapper .swiper-slide {
         width: 100%;
         height: 120%;
-        transform: skewY(10deg);
+        //transform: skewY(10deg);
         transition: all 0.5s ease;
         flex-shrink: 0;
         background-size: cover;
@@ -74,7 +74,7 @@ body {
       justify-content: center;
       align-items: center;
       padding: 50px 0;
-      transform: skewY(10deg); }
+      //transform: skewY(10deg); }
       .page-header .swiper-container .slider-nav .bullet {
         display: inline-block;
         width: 10px;
