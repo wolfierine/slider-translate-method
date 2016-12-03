@@ -1,2 +1,2 @@
 # slider-translate-method
-I created slider during having fun with programming
+I invented my own slider. Not perfect, but my own! :)
