@@ -18,7 +18,6 @@ body {
     filter: brightness(1) contrast(1.4);
     overflow: hidden;
     position: relative;
-    //transform: skewY(-10deg);
     margin-top: -40px; }body {
   margin: 0;
   padding: 0;
@@ -39,7 +38,6 @@ body {
     filter: brightness(1) contrast(1.4);
     overflow: hidden;
     position: relative;
-    //transform: skewY(-10deg);
     margin-top: -40px; }
 
     .page-header .swiper-container .swiper-wrapper {
@@ -48,13 +46,14 @@ body {
       width: 100%;
       height: 100%;
       transition: all 0.5s ease;
+      display: -ms-flexbox;
       display: flex; }
       .page-header .swiper-container .swiper-wrapper .swiper-slide {
         width: 100%;
         height: 120%;
-        //transform: skewY(10deg);
         transition: all 0.5s ease;
-        flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
         background-size: cover;
         background-position: center center; }
         .page-header .swiper-container .swiper-wrapper .swiper-slide:first-child {
@@ -70,11 +69,13 @@ body {
       bottom: 0;
       left: 0;
       right: 0;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 50px 0;
-      //transform: skewY(10deg); }
+      -ms-flex-pack: center;
+          justify-content: center;
+      -ms-flex-align: center;
+          align-items: center;
+      padding: 50px 0; }
       .page-header .swiper-container .slider-nav .bullet {
         display: inline-block;
         width: 10px;
@@ -100,8 +101,11 @@ body {
     left: 0;
     right: 0;
     z-index: 9999;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-align: center;
+        align-items: center;
     color: #fff;
     text-align: center; }
